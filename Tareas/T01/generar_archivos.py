@@ -7,18 +7,18 @@ PLANETAS = ['Tierra', 'Tarsonis', 'Aiur', 'Mar Sara', 'Korhal IV',
 RAZAS = {
     'Tierra': "Aprendiz",
     'Tarsonis': "Asesino",
-    'Aiur': "Mago",
+    'Aiur': "Maestro",
     'Mar Sara': "Asesino",
     'Korhal IV': "Aprendiz",
     'Carbonis': "Asesino",
     'Sayshell': "Aprendiz",
-    'Pandora': "Mago",
-    'Krypton': "Mago",
+    'Pandora': "Maestro",
+    'Krypton': "Maestro",
     'Tatooine': "Aprendiz",
 }
 
 MAXIMA_POBLACION = {
-    "Mago": 100,
+    "Maestro": 100,
     "Aprendiz": 150,
     "Asesino": 400
 }
@@ -70,8 +70,8 @@ def generar_datos(planeta):
     else:
         cuartel = False
 
-    if cuartel and raza == "Mago":
-        magos = random.randint(0, MAXIMA_POBLACION["Mago"])
+    if cuartel and raza == "Maestro":
+        magos = random.randint(0, MAXIMA_POBLACION["Maestro"])
     else:
         magos = 0
 
