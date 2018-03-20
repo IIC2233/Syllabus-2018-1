@@ -1,0 +1,7 @@
+Matematicas,0
+Ingenieria,0
+Fisica,1
+Deportes,0
+Educacion,1
+Teologia,0
+College,0

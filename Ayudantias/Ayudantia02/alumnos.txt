@@ -1,0 +1,15 @@
+13631277,Deportes
+13201645,Matematicas
+15622245,Fisica
+13621930,Fisica
+13202388,Educacion
+15622268,Matematicas
+13201433,Fisica
+13202438,Ingenieria
+14631681,Fisica
+15621945,Matematicas
+15201956,Ingenieria
+15631873,Educacion
+13632049,College
+16201376,Ingenieria
+15201814,Teologia
