@@ -1,0 +1,12 @@
+001,Beijing,Iquique
+002,San Francisco,Nueva York
+003,Mexico,Concepción
+004,Punta del Este,Mexico
+005,Nueva York,Tokio
+006,Tokio,Iquique
+007,Santiago,Tokio
+008,Mexico,San Francisco
+009,Copiapo,Miami
+010,Puerto Montt,Concepción
+011,Nueva York,San Francisco
+012,Punta del Este,Santiago
