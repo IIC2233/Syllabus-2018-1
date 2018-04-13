@@ -27,7 +27,7 @@
 
 6. Si A es una clase abstracta, la sentencia `a=A()` se puede ejecutar solo una vez.
 
-    **Respuesta**: Falso. No es posible instanciar clases abstractas, pero sí subclases. (0.6 puntos)
+    **Respuesta**: Falso. Se aceptaron dos posibles justificaciones. Para aquellos alumnos que asumen que la clase abstracta no se puede instanciar (tiene métodos abstractos implementados), se pone correcto que mencionen que nunca se puede ejecutar porque arroja error. Por otro lado, aquellos alumnos que dicen que es falso porque se puede ejecutar todas las veces que uno quiera (clase abstracta sin métodos abstractos) también se cuenta como correcta. (0.6 puntos)
 
 
 ### Lectura de código (2 puntos)
