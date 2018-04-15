@@ -63,9 +63,12 @@ class Scroll(QScrollArea):
         self.setMinimumWidth(1366)
         self.setGeometry(0, 0, 1250, 130)
 
-    def intercambio(self, j1, j2):
+    def intercambio(self, j1, j2 = None):
         x = next(x for x in self.jugadores if x.id == j1.id)
-        self.jugadores[self.jugadores.index(x)] = j2
+        if j2:
+            self.jugadores[self.jugadores.index(x)] = j2
+        else:
+            self.jugadores.pop(self.jugadores.index(x))
         lista = []
         self.content = QWidget(self.parent())
         self.layout = QGridLayout(self.content)
@@ -133,12 +136,15 @@ class Jugador:
         self.layout.hide()
 
     def mousePressEvent(self):
-        if not self.en_cancha and self.parent.booleanos['k']:
-            self.parent.intercambio(self)
-        elif self.parent.booleanos['k']:
-            self.parent.intercambio(self, True)
-        else:
-            self.parent.seleccion(self)
+        if self.parent.listo:
+            if not self.en_cancha and self.parent.booleanos['k']:
+                self.parent.intercambio(self)
+            elif self.parent.booleanos['k']:
+                self.parent.intercambio(self, True)
+            else:
+                self.parent.seleccion(self)
+        elif not self.en_cancha:
+            self.parent.agregar_jugador(self)
 
     def create_layout(self):
         self.layout = Layout(self.parent, self, self.scaled)

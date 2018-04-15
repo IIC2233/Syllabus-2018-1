@@ -61,11 +61,19 @@ class Window(QWidget):
         for i in jugadores:
             self.lista_jugadores.append(Jugador(self, *i, scaled=0.8))
 
-        self.__jugadores = sample(self.lista_jugadores, 11)
+        self.__jugadores = [QLabel(self) for i in range(11)]
         self.__jugadores_afuera = [
             Jugador(self, x.id, x.nombre, x.nombre_completo, x.club, x.liga,
                     x.nacionalidad, x.overall) for x in self.lista_jugadores if
             x not in self.__jugadores]
+
+    @property
+    def listo(self):
+        contador = 0
+        for i in self.__jugadores:
+            if isinstance(i, Jugador):
+                contador += 1
+        return contador >= 11
 
     def ver_equipo(self):
         oImage = QImage("Assets/cancha_inferior").scaled(1366,
@@ -125,18 +133,19 @@ class Window(QWidget):
 
     def reajustar_formacion(self):
         lista = list(self.__jugadores)
-        self.cuadro_info.hide()
-        lista[0].move(646, 450)
-        lista.pop(0)
-        for i in range(4):
-            lista[0].move(205 + 300 * i, 350)
+        if lista:
+            self.cuadro_info.hide()
+            lista[0].move(646, 450)
             lista.pop(0)
-        for i in range(4):
-            lista[0].move(195 + 310 * i, 210)
-            lista.pop(0)
-        for i in range(2):
-            lista[0].move(520 + 220 * i, 70)
-            lista.pop(0)
+            for i in range(4):
+                lista[0].move(205 + 300 * i, 350)
+                lista.pop(0)
+            for i in range(4):
+                lista[0].move(195 + 310 * i, 210)
+                lista.pop(0)
+            for i in range(2):
+                lista[0].move(520 + 220 * i, 70)
+                lista.pop(0)
 
     def campeonatos(self):
         oImage = QImage("Assets/torneo").scaled(1366,
@@ -385,6 +394,19 @@ class Window(QWidget):
         if self.booleanos['e'] and key.key() == Qt.Key_Return:
             self.boton_buscar.click()
 
+    def agregar_jugador(self, jugador):
+        for i in self.__jugadores:
+            if not isinstance(i, Jugador):
+                j = self.__jugadores.index(i)
+                self.__jugadores[j] = (next(
+                    x for x in self.lista_jugadores if x.nombre == jugador.nombre))
+                self.reajustar_formacion()
+                self.__jugadores[j].show()
+                self.__jugadores[j].en_cancha = True
+                self.scroll_jugadores.intercambio(jugador)
+                self.parent.entra_jugador(jugador.nombre_completo)
+                break
+
     @property
     def puntaje(self):
         return self.__ptje
@@ -431,4 +453,5 @@ class Window(QWidget):
         self.items_respuestas = []
         self.model_respuestas = QStandardItemModel(self.respuestas)
         self.respuestas.show()
+
 

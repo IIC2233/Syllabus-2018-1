@@ -64,6 +64,9 @@ class Juego:
     def cambio_jugador(self, j1, j2, en_cancha):
         pass
 
+    def entra_jugador(self, jugador):
+        pass
+
     def simular_campeonato(self, equipos):
         pass
 
