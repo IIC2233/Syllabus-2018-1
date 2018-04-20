@@ -21,6 +21,7 @@ controles (de materia y/o lecturas adicionales), tareas y un examen final. Se ca
 1. NO se borrará ninguna otra evaluación (actividad, control, tareas, examen) aparte de las estipuladas en los puntos anteriores.  
 1. La última tarea es de carácter opcional y **no** elimina una nota.
 1. Solo será aproximada la nota final NF. El resto de las notas serán usadas con dos decimales.
+1. Las notas de todas las evaluaciónes se publicarán en [esta planilla](https://docs.google.com/spreadsheets/d/1nauE6bSXYRD1OY0eoLIPTNqJju7zt48E3oh7lO8AH8Y/edit#gid=1120413644).
 
 
 # Foro
