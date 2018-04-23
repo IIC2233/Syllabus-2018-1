@@ -1,0 +1,48 @@
+id, genre
+0, Drama
+0, Comedia
+1, Comedia
+1, Acción
+1, Drama
+1, Fantasía
+2, Acción
+2, Drama
+2, Ciencia ficción
+2, Fantasía
+3, Acción
+3, Drama
+3, Ciencia ficción
+4, Acción
+4, Fantasía
+5, Acción
+5, Ciencia ficción
+5, Fantasía
+5, Suspenso
+6, Comedia
+6, Acción
+6, Ciencia ficción
+7, Comedia
+7, Acción
+7, Ciencia ficción
+8, N/A
+9, Acción
+10, Terror
+10, Suspenso
+11, Acción
+11, Drama
+11, Fantasía
+12, Ciencia ficción
+12, Terror
+12, Suspenso
+13, Acción
+13, Ciencia ficción
+14, Acción
+14, Ciencia ficción
+15, Acción
+15, Drama
+15, Fantasía
+16, Fantasía
+17, Comedia
+17, Thiller
+18, Comedia
+18, Musical
