@@ -1,0 +1,4 @@
+[
+    ["best_comments", ["filter_by_date", ["load_database"], 2015, true], 7],
+    ["take_movie_while", ["load_database"], "IMDb", "==", 40]
+]
