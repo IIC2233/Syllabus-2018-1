@@ -104,7 +104,8 @@ class MyWidget(QtWidgets.QWidget):
         else:
             array = []
             for querry in self.query_table.selectedItems():
-                array.append(json.loads(querry.text().replace("'", '"')))
+                text = querry.text().replace("True", 'true').replace("False", 'false')
+                array.append(json.loads(text.replace("'", '"')))
             self.process_query(array)
 
     def save_file(self):
@@ -113,7 +114,8 @@ class MyWidget(QtWidgets.QWidget):
         self.query_table.clearSelection()
         array = []
         for querry in all_items:
-            array.append(json.loads(querry.text().replace("'", '"')))
+            text = querry.text().replace("True", 'true').replace("False", 'false')
+            array.append(json.loads(text.replace("'", '"')))
         self.save_file_consult(array)
 
     def add_answer(self, texto):

@@ -1,4 +1,4 @@
-id, title, rating_imdb, rating_metacritic, rating_rt, box_office, date
+id, title, rating_imdb, rating_rt, rating_metacritic, box_office, date
 0, "Titanic", 8.7/10, 88%, 90/100, $452.012.371, 1997
 1, "Piratas del caribe", 1.5/10, 80%, 82/100, $249.266.373, 2003
 2, "Avatar", 9.2/10, 22%, 97/100, $3.896.157, 2009

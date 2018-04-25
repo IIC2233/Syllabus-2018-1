@@ -1,4 +1,4 @@
-id, title, rating_imdb, rating_metacritic, rating_rt, box_office, date
+id, title, rating_imdb, rating_rt, rating_metacritic, box_office, date
 0, "A Herança", 7.5/10, 68%, 86/100, $653.948.880, 1970
 1, "Na Boca da Noite", 5.8/10, 54%, 73/100, $807.800.091, 2016
 2, "The Other Side of the Wind", 9.7/10, 38%, 93/100, $24.326.001, 2018
