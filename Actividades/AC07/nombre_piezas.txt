@@ -1,0 +1,153 @@
+Aceite de motor
+Acelerador
+Admisión variable
+Adorno de capó
+Alternador del motor
+Alusil
+Amortiguador (automóvil)
+Apoyos del cigüeñal
+Árbol de levas
+AutoPC
+Avance del encendido
+Barra de torsión
+Batería de automóvil
+Batería de plomo y ácido
+Bloque del motor
+BMW xDrive
+Bobina del encendido
+Bocina
+Bolsa de aire
+Bomba inyectora
+Bujía
+Bujía de precalentamiento
+Bus CAN
+Cadena cinemática
+Cadena de rodillos
+Cadena de transmisión
+Cadena de transmisión sellada
+Caja de cambios
+Calavera (automóvil)
+Capó
+Carburador
+Carga motor
+Carputer
+Cárter
+Centralita electrónica
+Chip de potenciación
+Ciclo Otto
+Cierre centralizado
+Cigüeñal
+Climatización en vehículos
+Colector de admisión
+Common-rail
+Common-rail Direct Injection
+Control de estabilidad
+Control de velocidad
+Convertidor catalítico
+Convertidor de par
+Correa de distribución
+Cubos de bloqueo
+Culata (motor)
+Depósito de combustible
+Detonación (motor alternativo)
+Dinamo (generador eléctrico)
+DIS
+Distribución (automóvil)
+Distribución de válvulas variable
+Distribuidor (automóvil)
+Económetro
+Eje De Dion
+Eje de torsión
+Eje semirrígido
+Elevalunas
+Embrague
+Encendido del motor
+Encendido electrónico
+Espejo retrovisor
+Factor lambda (AFR)
+Faros xenón
+Filtro de aire
+Flector
+Freno de disco
+Freno de estacionamiento
+Freno de tambor
+Freno eléctrico
+Geometría de Ackermann
+Guantera
+Guardabarros
+Horómetro
+Iluminación automotriz
+Luz antiniebla
+Intercooler
+Inyección de combustible
+Inyección electrónica
+Lámpara H1
+Limpiaparabrisas
+Líquido de frenos
+Llanta
+Luz intermitente
+Maletero
+Mangueta de dirección
+Mecanismo diferencial
+Mezcla pobre
+Mezcla rica
+Motor de arranque
+Motor de combustión interna
+Motor de combustión interna alternativo
+Motor de dos tiempos
+Motor diésel
+Motor DOHC
+Motor OHV
+Motor SOHC
+Motor SV
+Múltiple de escape
+Multiválvulas
+Neumático
+Odómetro
+Palanca de cambios (automóvil)
+Panel de instrumentos
+Parachoques
+Pilar (automóvil)
+Plaza (vehículo)
+Polea de cigüeñal
+Pomo del cambio
+Portaequipajes (automóvil)
+Puertas de ala de gaviota
+Puertas de ala de mariposa
+Puertas de suicidio
+Puertas de tijera
+Radio (receptor)
+Renovación de la carga
+Reposacabezas
+Segmento (mecánica)
+Semiárbol
+Servofreno
+Silenciador (motores)
+Sincronizadores
+Sistema antibloqueo de ruedas
+Sistema de escape (motor)
+Sistema de navegación para automóviles
+Sobrealimentador
+Sonda lambda
+Suspensión (automóvil)
+Suspensión de ballesta
+Suspensión dependiente
+Suspensión independiente
+Suspensión multibrazo
+Suspensión neumática
+Suspensión Panhard
+Tacómetro
+Tapacubos
+Techo solar
+Thule Group
+Toma de mechero
+Transeje
+Transmisión automática
+Transmisión manual
+Tren de conducción
+Tren delantero
+Tubo de escape
+Tuerca de llanta
+Turbocompresor
+Velocímetro
+Volante de dirección
