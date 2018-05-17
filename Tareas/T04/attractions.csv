@@ -1,11 +1,11 @@
-id,name,type,adult_cost,child_cost,capacity,duration,min_height,dirt_limit,max_time
-0,Orbiter,acuatica,2985,1684,7,10,126,170,7
-1,Fireball,terrestre,2348,1711,25,9,127,171,8
-2,River rapids ride,aerea,2070,1860,8,6,120,164,10
-3,Wipeout,terrestre,2066,1062,49,6,131,156,10
-4,Breakdance,terrestre,2841,1456,21,8,146,162,7
-5,Carousel,aerea,2023,1963,32,7,100,159,5
-6,Teacups,aerea,2505,1060,16,6,98,167,6
-7,Condor,acuatica,2407,1400,58,9,95,130,8
-8,Ranger,acuatica,2411,1562,20,4,142,147,9
-9,Tornado,aerea,2285,1723,29,7,133,176,8
+id,name,type,adult_cost,child_cost,capacity,duration,min_height,dirt_limit,max_time
+0,Orbiter,acuatica,2985,1684,7,10,126,170,7
+1,Fireball,terrestre,2348,1711,25,9,127,171,8
+2,River rapids ride,aerea,2070,1860,8,6,120,164,10
+3,Wipeout,terrestre,2066,1062,49,6,131,156,10
+4,Breakdance,terrestre,2841,1456,21,8,146,162,7
+5,Carousel,aerea,2023,1963,32,7,100,159,5
+6,Teacups,aerea,2505,1060,16,6,98,167,6
+7,Condor,acuatica,2407,1400,58,9,95,130,8
+8,Ranger,acuatica,2411,1562,20,4,142,147,9
+9,Tornado,aerea,2285,1723,29,7,133,176,8
