@@ -1,0 +1,15 @@
+X X X X X X X X X X X X X X X
+X 0 0 0 0 0 0 0 0 0 0 0 0 0 X
+X 0 X 0 X 0 X 0 X 0 X 0 X 0 X
+X 0 0 0 0 0 0 0 0 P 0 0 0 0 X
+X 0 X 0 X 0 X 0 X P X 0 X 0 X
+X 0 0 P P P 0 0 0 P 0 0 0 0 X
+X 0 X 0 X P X P X P X 0 X 0 X
+X 0 0 0 0 P P P P P P P 0 0 X
+X 0 X 0 X P X 0 X 0 X P X 0 X
+X 0 0 0 0 P P 0 0 0 0 P 0 0 X
+X 0 X 0 X P X 0 X 0 X P X 0 X
+X 0 0 0 0 0 0 0 0 0 P P 0 0 X
+X 0 X 0 X 0 X 0 X 0 X 0 X 0 X
+X 0 0 0 0 0 0 0 0 0 0 0 0 0 X
+X X X X X X X X X X X X X X X
