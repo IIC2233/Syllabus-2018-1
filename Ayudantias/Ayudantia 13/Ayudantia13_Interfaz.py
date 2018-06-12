@@ -14,6 +14,7 @@ from random import randint
 # Cargamos la ventana
 ventana = uic.loadUiType("ayudantia_13.ui")
 
+
 class Widget(*ventana):
 
     '''
@@ -55,9 +56,7 @@ class Widget(*ventana):
 
     def oprimir_boton(self, eleccion):
         '''
-        Este método se ejecuta al apretar uno de las tres imágenes.
-        Deshabilita el uso del resto de los botones y emite la señal trigger_boton
-        :param eleccion: string que puede ser 'papel', 'tijera' y 'piedra'
+        Este método se ejecuta al apretar uno de los botones de dados.
         :return:
         '''
 
@@ -82,7 +81,6 @@ class Widget(*ventana):
                 self.suma = 0
                 self.boton1, self.boton2 = False, False
 
-
     def desplegar_resultado(self, event):
         '''
         Esta función se encarga de mostrar los resultados.
@@ -102,8 +100,10 @@ class Widget(*ventana):
 
         # Se muestran las opciones elegidas por el usuario y el contrincante
         self.timer.setText("")
-        self.eleccion_1.setPixmap(QPixmap("Assets/{}.png".format(event.eleccion_1)))
-        self.eleccion_2.setPixmap(QPixmap("Assets/{}.png".format(event.eleccion_2)))
+        self.eleccion_1.setPixmap(
+            QPixmap("Assets/{}.png".format(event.eleccion_1)))
+        self.eleccion_2.setPixmap(
+            QPixmap("Assets/{}.png".format(event.eleccion_2)))
 
         # Se esperan otros 2 segundos
         QTest.qWait(2000)
@@ -121,6 +121,7 @@ class Widget(*ventana):
         self.habilitado = True
         self.dado1.setIcon(QIcon("Assets/dice.png"))
         self.dado2.setIcon(QIcon("Assets/dice.png"))
+
 
 if __name__ == '__main__':
 

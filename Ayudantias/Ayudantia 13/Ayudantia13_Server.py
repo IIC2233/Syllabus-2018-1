@@ -162,7 +162,7 @@ class Server:
                 # Aprovechamos de verificar si ambos jugadores ya jugaron para
                 # realizar la lógica del juego
                 if None not in self.jugada.values():
-                    # Si ambos hicieron su jugada, entonces se realiza el cachipun
+                    # Si ambos lanzaron sus dados, jugamos
                     self.play_time()
 
     def play_time(self):
