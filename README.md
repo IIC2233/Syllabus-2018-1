@@ -9,6 +9,20 @@ controles (de materia y/o lecturas adicionales), tareas y un examen final. Se ca
     **NC = 0.2xFE + 0.45xT + 0.2xAC + 0.15xC**
 
     Donde **FE** es la nota del examen final, **T** es el promedio ponderado de las tareas, **AC** es el promedio de las actividades en clases, y **C** es el promedio de los controles.
+    
+    El promedio ponderado de las tareas se calcula de la siguiente manera:
+    
+    **T = sum(pi * ti)/sum(pi)**
+    
+    Donde: 
+    
+      | Nota tarea ti                  | Ponderador pi |
+      | ------------------------------ |:-------------:|
+      | t1                             | 70            |
+      | t2                             | 85            |
+      | t3, t4, t5, t6                 | 100            |
+      | t7 (opcional, con inscripción) | 100            |
+   
 
 1.  Adicionalmente, para aprobar el curso el alumno debe cumplir con:
     - **FE** debe ser mayor o igual a 3.500
