@@ -12,7 +12,7 @@ controles (de materia y/o lecturas adicionales), tareas y un examen final. Se ca
     
     El promedio ponderado de las tareas se calcula de la siguiente manera:
     
-    **T = ∑ (p<sub>i</sub> × t<sub>i</sub>) / ∑ p<sub>i</sub>**
+    **T** = ∑ (**p<sub>i</sub>** × **t<sub>i</sub>**) / ∑ **p<sub>i</sub>**
     
     Donde: 
     
