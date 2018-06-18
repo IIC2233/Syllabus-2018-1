@@ -12,16 +12,16 @@ controles (de materia y/o lecturas adicionales), tareas y un examen final. Se ca
     
     El promedio ponderado de las tareas se calcula de la siguiente manera:
     
-    **T = sum(pi * ti)/sum(pi)**
+    **T = ∑ (p<sub>i</sub> × t<sub>i</sub>) / ∑ p<sub>i</sub>**
     
     Donde: 
     
-      | Nota tarea ti                  | Ponderador pi |
-      | ------------------------------ |:-------------:|
-      | t1                             | 70            |
-      | t2                             | 85            |
-      | t3, t4, t5, t6                 | 100            |
-      | t7 (opcional, con inscripción) | 100            |
+      | Nota tarea t<sub>i</sub>                                   | Ponderador p<sub>i</sub> |
+      | ---------------------------------------------------------- |:------------------------:|
+      | t<sub>1</sub>                                              | 70                       |
+      | t<sub>2</sub>                                              | 85                       |
+      | t<sub>3</sub>, t<sub>4</sub>, t<sub>5</sub>, t<sub>6</sub> | 100                      |
+      | t<sub>7</sub>   (opcional, con inscripción)                | 100                      |
    
 
 1.  Adicionalmente, para aprobar el curso el alumno debe cumplir con:
