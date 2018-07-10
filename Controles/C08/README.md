@@ -8,7 +8,7 @@
 
 2. La serialización y deserialización en JSON, sin ninguna personalización, permite almacenar y recuperar cualquier tipo de dato de los que vienen por defecto con Python.
 
-	* Verdadero (las funciones no son datos verdad?? dato!= objeto?)  (0.4 pts)
+	* Verdadero (0.4 pts)
 
 3. Respecto a la comunicación de dos procesos en red, los puertos por los que se recibe información en el cliente y el servidor tienen que ser los mismos.
 
@@ -23,7 +23,7 @@
 1. En un modelo cliente-servidor, ¿quién inicia la comunicación? ¿Quién escucha?
 
 	* El cliente inicia la comunicación y el servidor escucha. (0.6 pts)
-	
+
 2. Suponga que quiere construir un cliente de mensajería para competir contra Whatsapp.
 	* **a)** Para los usuarios es fundamental que los mensajes lleguen a destino, o en el peor caso, saber que un mensaje no llegó. A raíz de esto, ¿qué protocolo de transporte usaría en su programa?
 	* TCP porque asegura fiabilidad (0.4 pts)
